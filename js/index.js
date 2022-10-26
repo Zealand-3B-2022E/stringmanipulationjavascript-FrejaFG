@@ -35,8 +35,8 @@ function addInputText()
         result = inputText.toUpperCase()
     else if (UpLow=="lower")
         result = inputText.toLowerCase()
-    else
-        result = inputText.replace("Buy a new plant")
+    else if (UpLow=="truth")
+        result = inputText.replace(inputText, "Buy a new plant")
 
 
     // fint the list to add element to
